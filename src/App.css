@@ -1,0 +1,8 @@
+.App {
+  background-color: #efefef;
+  min-height: 100vh;
+}
+
+.App h1 {
+  font-weight: bold;
+}
