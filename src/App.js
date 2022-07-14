@@ -6,7 +6,8 @@ import ReactImg from "./logo-og.png";
 const App = () => {
   return (
     <div className="App">
-      <h1>React App !</h1>
+      <h1>React App ! - {process.env.NODE_ENV}</h1>
+      <h2>{process.env.NAME}</h2>
       <img src={ReactImg} alt="" />
     </div>
   );
