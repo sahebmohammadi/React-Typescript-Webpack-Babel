@@ -1,6 +1,6 @@
-import React from "react";
-import "./App.css";
-import Counter from "./Counter";
+import React from 'react'
+import './App.css'
+import Counter from './Counter'
 
 const App = () => {
   return (
@@ -9,7 +9,7 @@ const App = () => {
       <h2>{process.env.NAME}</h2>
       <Counter />
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App

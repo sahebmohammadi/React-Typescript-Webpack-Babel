@@ -1,9 +1,8 @@
-import { useState } from "react";
-import React from "react";
+import React, { useState } from 'react'
 
 const Counter = () => {
-  const [count, setCount] = useState(0);
-  return <button onClick={() => setCount((c) => c + 1)}>click - {count}</button>;
-};
+  const [count, setCount] = useState(0)
+  return <button onClick={() => setCount((c) => c + 1)}>click - {count}</button>
+}
 
-export default Counter;
+export default Counter
